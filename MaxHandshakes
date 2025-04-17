@@ -9,7 +9,7 @@ class MaxHandshakes{
 	MaxHandshakes obj=new MaxHandshakes();
 		System.out.print("Enter number of students:"); 
 		int students=input.nextInt(); 
-		 
+		  
 		int sum=obj.handshake(students); 
 		System.out.print("Number Of Handshakes:"+sum);
 		input.close();
