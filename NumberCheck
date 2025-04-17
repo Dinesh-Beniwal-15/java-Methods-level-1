@@ -1,0 +1,36 @@
+import java.util.Scanner;
+class NumberCheck{
+	public int check(int num){
+		if(num>0){
+			return 1;
+		}
+		else if(num<0){
+			return -1;
+		}
+		else {
+			return 0;
+		}
+	}
+	
+	public static void main(String[]args){
+		Scanner input=new Scanner(System.in);
+		NumberCheck obj=new NumberCheck();
+		
+		System.out.print("Enter number:");
+		int num=input.nextInt();
+		
+		int number=obj.check(num);
+		
+		if(number==1){
+			System.out.print("Given number is positive.");
+		}
+		else if(number==0){
+			System.out.print("Given number is zero.");
+		}
+		else if(number==-1){
+			System.out.print("Given number is negative.");
+		} 
+		
+		input.close();
+	}
+}
