@@ -1,0 +1,24 @@
+import java.util.Scanner;
+class NumberOfRounds{
+	public double rounds(int s1,int s2,int s3){
+		int perimeter=s1+s2+s3;
+		return 5.0/perimeter;
+	}
+	
+	public static void main(String[]args){
+		Scanner input=new Scanner(System.in);
+		NumberOfRounds obj=new NumberOfRounds();
+		
+		System.out.print("Enter 1st side of triangle:");
+		int side1=input.nextInt();
+		System.out.print("Enter 2nd side of triangle:");
+		int side2=input.nextInt();
+		System.out.print("Enter 3rd side of triangle:");
+		int side3=input.nextInt();
+		
+		double rounds=obj.rounds(side1,side2,side3);
+		
+		System.out.print("Number of rounds to complete 5 KM distance:"+rounds);
+		input.close();
+	}
+}
