@@ -1,0 +1,19 @@
+import java.util.Scanner;
+class SimpleInterest{
+	public void simpleint(int p,int r,int t){
+		System.out.print("The Simple Interest is "+(p*r*t/100)+" for Principal "+p+", Rate of Interest "+r+" and Time "+t);
+	}
+	
+	public static void main(String[]args){
+	Scanner input=new Scanner(System.in);
+	SimpleInterest obj=new SimpleInterest();
+		System.out.print("Enter Principle Amount:");
+		int principle=input.nextInt();
+		System.out.print("Enter Rate of interest:");
+		int rate=input.nextInt();
+		System.out.print("Enter Time period:");
+		int time=input.nextInt();
+		obj.simpleint(principle,rate,time);
+		
+	}
+}
