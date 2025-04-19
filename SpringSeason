@@ -1,0 +1,27 @@
+import java.util.Scanner;
+class SpringSeason{
+	public boolean season(int day,int month){
+		if((day>=20&&month==3)||(month==4)||(month==5)||(day<=20&&month==6)){
+			return true;	
+		}
+		else return false;
+	}
+	
+	public static void main(String[]args){
+		Scanner input=new Scanner(System.in);
+		SpringSeason obj=new SpringSeason();
+		
+		System.out.print("Enter Day(1-31):");
+		int day=input.nextInt();
+		System.out.print("Enter month(1-12):");
+		int month=input.nextInt();
+		
+		if(obj.season(day,month)){
+			System.out.print("Its a Spring Season");
+		}
+		else {
+			System.out.print("Not a Spring Season");
+		}
+		input.close();
+	}
+}
