@@ -5,7 +5,7 @@ class LargestSmallestofthree{
 		int smallest = n1;
         int largest = n1;    
  
-        // Check for smallest 
+        // Check for smallest  
         if (n2 < smallest) {    
             smallest = n2;
         } 
