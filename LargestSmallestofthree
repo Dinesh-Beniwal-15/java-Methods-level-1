@@ -1,4 +1,4 @@
-import java.util.Scanner;
+ import java.util.Scanner;
 class LargestSmallestofthree{
 	
 	public static int[] compare(int n1,int n2,int n3){
