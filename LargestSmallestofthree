@@ -10,7 +10,7 @@ class LargestSmallestofthree{
             smallest = n2;    
         }    
         if (n3 < smallest) { 
-            smallest = n3; 
+            smallest = n3;  
         }
 
         // Check for largest
