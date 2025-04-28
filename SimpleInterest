@@ -11,7 +11,7 @@ class SimpleInterest{
 		int principle=input.nextInt();
 		System.out.print("Enter Rate of interest:");
 		int rate=input.nextInt();  
-		System.out.print("Enter Time period:"); 
+		System.out.print("Enter Time period:");  
 		int time=input.nextInt();
 		obj.simpleint(principle,rate,time);
 		
