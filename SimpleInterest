@@ -14,6 +14,6 @@ class SimpleInterest{
 		System.out.print("Enter Time period:");  
 		int time=input.nextInt();
 		obj.simpleint(principle,rate,time);
-		
+		 
 	}
 }
