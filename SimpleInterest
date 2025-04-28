@@ -6,7 +6,7 @@ class SimpleInterest{
 	
 	public static void main(String[]args){
 	Scanner input=new Scanner(System.in);
-	SimpleInterest obj=new SimpleInterest();
+	SimpleInterest obj=new SimpleInterest(); 
 		System.out.print("Enter Principle Amount:");
 		int principle=input.nextInt();
 		System.out.print("Enter Rate of interest:");
