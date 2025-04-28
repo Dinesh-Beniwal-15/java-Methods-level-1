@@ -15,5 +15,5 @@ class SimpleInterest{
 		int time=input.nextInt();
 		obj.simpleint(principle,rate,time);
 		 
-	}
+	} 
 }
