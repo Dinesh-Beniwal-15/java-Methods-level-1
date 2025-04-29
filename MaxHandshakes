@@ -3,7 +3,7 @@ class MaxHandshakes{
 	public int handshake(int n){
 		return  (n*(n-1))/2;
 	}
-	  
+	   
 	public static void main(String[]args){
 	Scanner input=new Scanner(System.in);
 	MaxHandshakes obj=new MaxHandshakes();
