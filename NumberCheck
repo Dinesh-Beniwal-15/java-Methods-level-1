@@ -11,7 +11,7 @@ class NumberCheck{
 			return 0;
 		} 
 	}  
-	
+	 
 	public static void main(String[]args){
 		Scanner input=new Scanner(System.in);
 		NumberCheck obj=new NumberCheck();
