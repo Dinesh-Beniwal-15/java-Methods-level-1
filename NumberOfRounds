@@ -5,7 +5,7 @@ class NumberOfRounds{
 		return 5.0/perimeter; 
 	}
 	
-	public static void main(String[]args){ 
+	public static void main(String[]args){  
 		Scanner input=new Scanner(System.in);
 		NumberOfRounds obj=new NumberOfRounds();
 		
