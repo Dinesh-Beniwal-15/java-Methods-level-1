@@ -2,7 +2,7 @@ import java.util.Scanner;
 class NumberOfRounds{
 	public double rounds(int s1,int s2,int s3){
 		int perimeter=s1+s2+s3;
-		return 5.0/perimeter;
+		return 5.0/perimeter; 
 	}
 	
 	public static void main(String[]args){
