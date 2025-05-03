@@ -6,7 +6,7 @@ class NumberOfRounds{
 	}
 	
 	public static void main(String[]args){  
-		Scanner input=new Scanner(System.in);
+		Scanner input=new Scanner(System.in); 
 		NumberOfRounds obj=new NumberOfRounds();
 		
 		System.out.print("Enter 1st side of triangle:");
