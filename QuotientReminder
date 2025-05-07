@@ -5,7 +5,7 @@ class QuotientReminder{
 		int quotient=number/divisor;
 		
 		return new int[]{reminder,quotient}; 
-	}  
+	}   
 	public static void main(String[] args){   
 	Scanner input=new Scanner(System.in); 
 		
