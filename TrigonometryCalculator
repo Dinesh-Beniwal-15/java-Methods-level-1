@@ -7,7 +7,7 @@ class TrigonometryCalculator {
         // Convert degrees to radians   
         double radians = Math.toRadians(angle);  
    
-        double sine = Math.sin(radians);  
+        double sine = Math.sin(radians);   
         double cosine = Math.cos(radians); 
         double tangent = Math.tan(radians);  
   
