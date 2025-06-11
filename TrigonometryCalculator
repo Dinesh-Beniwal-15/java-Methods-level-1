@@ -8,7 +8,7 @@ class TrigonometryCalculator {
         double radians = Math.toRadians(angle);  
    
         double sine = Math.sin(radians);   
-        double cosine = Math.cos(radians); 
+        double cosine = Math.cos(radians);  
         double tangent = Math.tan(radians);  
   
         return new double[]{sine, cosine, tangent};
