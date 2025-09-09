@@ -12,6 +12,6 @@ class MaxHandshakes{
 		      
 		int sum=obj.handshake(students);  
 		System.out.print("Number Of Handshakes:"+sum);
-		input.close(); 
+		input.close();  
 	}
 }
