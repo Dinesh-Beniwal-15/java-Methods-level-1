@@ -8,7 +8,7 @@ class QuotientReminder{
 	}    
 	public static void main(String[] args){    
 	Scanner input=new Scanner(System.in);  
-		 
+		  
 		System.out.print("Enter 1st number:");  
 		int num1=input.nextInt();  
 		  
