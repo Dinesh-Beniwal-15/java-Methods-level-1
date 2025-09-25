@@ -15,7 +15,7 @@ class SpringSeason{
 		int day=input.nextInt();
 		System.out.print("Enter month(1-12):");
 		int month=input.nextInt();
-		
+		 
 		if(obj.season(day,month)){
 			System.out.print("Its a Spring Season");
 		}
