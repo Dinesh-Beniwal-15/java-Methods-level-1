@@ -12,7 +12,7 @@ class SpringSeason{
 		SpringSeason obj=new SpringSeason();    
 		  
 		System.out.print("Enter Day(1-31):");
-		int day=input.nextInt();
+		int day=input.nextInt(); 
 		System.out.print("Enter month(1-12):");
 		int month=input.nextInt();
 		 
