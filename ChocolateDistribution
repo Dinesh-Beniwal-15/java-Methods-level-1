@@ -12,7 +12,7 @@ class ChocolateDistribution {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);   
  
-        // Input from user 
+        // Input from user  
         System.out.print("Enter the number of chocolates: ");   
         int numberOfChocolates = input.nextInt();  
  
