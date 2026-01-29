@@ -9,7 +9,7 @@ class ChocolateDistribution {
         return new int[]{quotient, remainder}; 
     }  
  
-    public static void main(String[] args) { 
+    public static void main(String[] args) {  
         Scanner input = new Scanner(System.in);   
  
         // Input from user  
