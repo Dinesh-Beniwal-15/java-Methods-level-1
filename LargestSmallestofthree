@@ -4,7 +4,7 @@ class LargestSmallestofthree{
 	public static int[] compare(int n1,int n2,int n3){
 		int smallest = n1;
         int largest = n1;     
-     
+      
         // Check for smallest   
         if (n2 < smallest) {       
             smallest = n2;       
