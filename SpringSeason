@@ -6,7 +6,7 @@ class SpringSeason{
 		}
 		else return false;    
 	} 
-	   
+	    
 	public static void main(String[]args){    
 		Scanner input=new Scanner(System.in);      
 		SpringSeason obj=new SpringSeason();      
