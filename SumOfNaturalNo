@@ -14,7 +14,7 @@ class SumOfNaturalNo{
 		int num=input.nextInt();
 	
 		System.out.print("Sum of "+num+" natural number is "+naturalsum(num));
-		
+		 
 		input.close();
 	}
 }
