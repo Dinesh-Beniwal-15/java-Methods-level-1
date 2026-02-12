@@ -13,7 +13,7 @@ class SumOfNaturalNo{
 		System.out.print("Enter a number:");   
 		int num=input.nextInt();  
 	   
-		System.out.print("Sum of "+num+" natural number is "+naturalsum(num)); 
+		System.out.print("Sum of "+num+" natural number is "+naturalsum(num));  
 		  
 		input.close();
 	}
