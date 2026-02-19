@@ -9,7 +9,7 @@ class NumberOfRounds{
 		Scanner input=new Scanner(System.in);  
 		NumberOfRounds obj=new NumberOfRounds();      
 		
-		System.out.print("Enter 1st side of triangle:");  
+		System.out.print("Enter 1st side of triangle:");   
 		int side1=input.nextInt(); 
 		System.out.print("Enter 2nd side of triangle:");  
 		int side2=input.nextInt();
