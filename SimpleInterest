@@ -4,7 +4,7 @@ class SimpleInterest{
 		System.out.print("The Simple Interest is "+(p*r*t/100)+" for Principal "+p+", Rate of Interest "+r+" and Time "+t);
 	}
 	
-	public static void main(String[]args){
+	public static void main(String[]args){ 
 	Scanner input=new Scanner(System.in);
 	SimpleInterest obj=new SimpleInterest();   
 		System.out.print("Enter Principle Amount:"); 
