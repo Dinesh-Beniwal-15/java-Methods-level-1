@@ -13,7 +13,7 @@ class WindChillCalculator {
         Scanner input = new Scanner(System.in);    
   
         // Get temperature and wind speed from user   
-        System.out.print("Enter the temperature in Fahrenheit: "); 
+        System.out.print("Enter the temperature in Fahrenheit: ");  
         double temperature = input.nextDouble();
 
         System.out.print("Enter the wind speed in miles per hour: ");
